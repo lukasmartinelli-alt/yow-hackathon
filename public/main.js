@@ -33,6 +33,7 @@ yow.controller('SignupCtrl', function SignupCtrl($scope, $cookies, $location) {
 
     $scope.toggleSubscription = function() {
         $scope.is_attending = !$scope.is_attending;
+        $cookies.mail = $scope.mail;
         var names = $scope.name.split(' ');
 
         $.ajax('api/attendees/', {

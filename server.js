@@ -55,7 +55,7 @@ app.post('/api/attendees', function (req, res) {
         last_name: req.body.last_name,
         is_attending: req.body.is_attending,
         pizza: req.body.pizza
-    }, function(err, attendee) {
+    }, {upsert: true}, function(err, attendee) {
         if(err) {
             return console.error(err);
         } else {
