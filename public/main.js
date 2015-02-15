@@ -7,6 +7,7 @@ yow.controller('SignupCtrl', function SignupCtrl($scope, $cookies, $location) {
     var mailParam = $location.search().mail;
     $scope.mail = mailParam ? mailParam : '';
     $scope.is_attending = false;
+    $scope.name = '';
 
     if($cookies.mail) {
         $scope.mail = $cookies.mail;
