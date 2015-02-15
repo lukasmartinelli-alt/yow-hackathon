@@ -10,8 +10,13 @@ var mongoose = require('mongoose');
 
 var options = {
     port: process.env.VCAP_APP_PORT || 3000,
-    mongoUrl: process.env.MONGO_URL || 'mongodb://localhost/yow-hackathon'
+    mongo: process.env.MONGO || 'mongodb://localhost/yow-hackathon'
 };
+
+if(process.env.VCAP_SERVICES){
+    var svcs = JSON.parse(process.env.VCAP_SERVICES);
+    options.mongo = svcs['mongodb-2.2'][0].credentials.url;
+}
 
 var Attendee = mongoose.model('Attendee', {
     mail: {type: String, unique: true},
@@ -28,7 +33,7 @@ function demongify(doc) {
     return doc;
 }
 
-mongoose.connect(options.mongoUrl);
+mongoose.connect(options.mongo);
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '/public')));
