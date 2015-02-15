@@ -1,5 +1,6 @@
 'use strict';
 
+
 var yow = angular.module('yow',['ngCookies']);
 yow.controller('SignupCtrl', function SignupCtrl($scope, $cookies, $location) {
     var mailParam = $location.search().mail;

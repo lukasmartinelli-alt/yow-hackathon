@@ -4,12 +4,14 @@ var path = require('path');
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
-var mongoose = require('mongoose-q')();
+var mongoose = require('mongoose');
 
 var options = {
     port: process.env.VCAP_APP_PORT || 3000,
     mongoUrl: process.env.MONGO_URL || 'mongodb://localhost/yow-hackathon'
 };
+
+var Attendee = require('./models').Attendee;
 
 mongoose.connect(options.mongoUrl);
 app.use(express.static(path.join(__dirname, '/public')));
