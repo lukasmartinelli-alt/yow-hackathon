@@ -1,0 +1,16 @@
+{
+  "name": "yow-hackathon",
+  "version": "1.0.0",
+  "description": "Materials for the yow Hackathon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lukas Martinelli <me@lukasmartinelli.ch> (http://lukasmartinelli.ch/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.11.2",
+    "mongoose-q": "0.0.14"
+  }
+}

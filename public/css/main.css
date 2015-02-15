@@ -1,0 +1,161 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background: url(../img/hsr_winter_blurred.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* { box-sizing: border-box; }
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3rem;
+    padding: 2rem 5rem;
+}
+
+h1, h2, h3 {
+    color: #fff;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    margin: 1rem 0;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+@media (max-width: 740px) {
+    h1 { font-size: 4.8rem; }
+    h2 { font-size: 4rem; }
+    body { padding: 0rem 1rem; }
+}
+
+
+#title {
+    float: left;
+    margin-right: 4rem;
+}
+
+#signup {
+    float: left;
+    width: 35rem;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+#info, #edit {
+    padding: 1rem;
+    padding-top: 0px;
+}
+
+#signup h1, #signup h2, #signup h3 {
+    color: #005291;
+    text-shadow: none;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.2em;
+    border: none;
+    color: #fff;
+    outline: 0px none;
+    transition: all 0.3s ease 0s;
+    background-color: #005291;
+}
+
+button.sub { }
+button.unsub { background-color: #6e9cbf; }
+
+input {
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1rem;
+    outline: 0px none transparent;
+}
+
+.dd-select {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+
+a.dd-selected {
+    font-weight: 400;
+}
+
+input, .dd-selected {
+    border: solid 5px #c9c9c9;
+    -webkit-transition: border 0.3s;
+    -moz-transition: border 0.3s;
+    -o-transition: border 0.3s;
+    transition: border 0.3s;
+}
+
+input:focus, .dd-selected:hover {
+  border: solid 5px #969696;
+}
+
+#info img {
+    float: left;
+    padding-right: 0.5rem;
+}
