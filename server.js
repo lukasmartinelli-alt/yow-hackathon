@@ -2,6 +2,8 @@
 'use strict';
 var path = require('path');
 var express = require('express');
+var bodyParser = require('body-parser');
+var errorHandler = require('errorhandler');
 var app = express();
 var http = require('http').Server(app);
 var mongoose = require('mongoose');
@@ -11,9 +13,60 @@ var options = {
     mongoUrl: process.env.MONGO_URL || 'mongodb://localhost/yow-hackathon'
 };
 
-var Attendee = require('./models').Attendee;
+var Attendee = mongoose.model('Attendee', {
+    mail: {type: String, unique: true},
+    first_name: String,
+    last_name: String,
+    is_attending: Boolean,
+    pizza: String
+});
+
+function demongify(doc) {
+    doc = doc.toObject();
+    delete doc._id;
+    delete doc.__v;
+    return doc;
+}
 
 mongoose.connect(options.mongoUrl);
+
+app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '/public')));
+app.use(errorHandler({ dumpExceptions: true, showStack: true }));
+
+app.get('/api/attendees', function(req, res) {
+    Attendee.find(function(err, attendees) {
+        if(!err) {
+            return res.send(attendees.map(demongify));
+        } else {
+            return console.error(err);
+        }
+    });
+});
+
+app.post('/api/attendees', function (req, res) {
+    Attendee.findOneAndUpdate({mail: req.body.mail}, {
+        first_name: req.body.first_name,
+        last_name: req.body.last_name,
+        is_attending: req.body.is_attending,
+        pizza: req.body.pizza
+    }, function(err, attendee) {
+        if(err) {
+            return console.error(err);
+        } else {
+            return res.send(demongify(attendee));
+        }
+    });
+});
+
+app.get('/api/attendees/:mail', function (req, res){
+    return Attendee.findOne({ mail: req.params.mail}, function (err, attendee) {
+        if (!err) {
+            return res.send(demongify(attendee));
+        } else {
+          return console.log(err);
+        }
+    });
+});
 
 http.listen(options.port);
