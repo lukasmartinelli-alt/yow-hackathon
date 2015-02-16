@@ -100,6 +100,12 @@ h3 {
     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 600px) {
+    #signup {
+        width: 100%;
+    }
+}
+
 #info, #edit {
     padding: 1rem;
     padding-top: 0px;
