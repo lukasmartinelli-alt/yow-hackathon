@@ -64,8 +64,12 @@ app.post('/api/attendees', function (req, res) {
 
 app.get('/api/attendees/:mail', function (req, res){
     return Attendee.findOne({ mail: req.params.mail}, function (err, attendee) {
-        if (!err) {
-            return res.send(demongify(attendee));
+        if (!err ) {
+            if(attendee) {
+                return res.send(demongify(attendee));
+            } else {
+                return res.status(404).send('Not found ' + req.params.mail);
+            }
         } else {
           return console.log(err);
         }
