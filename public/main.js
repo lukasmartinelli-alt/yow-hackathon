@@ -2,9 +2,18 @@
 
 var pizzas = ['Margherita', 'Stromboli', 'Napoli', 'Prosciutto'];
 
+
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+
 var yow = angular.module('yow',['ngCookies']);
-yow.controller('SignupCtrl', function SignupCtrl($scope, $cookies, $location) {
-    var mailParam = $location.search().mail;
+yow.controller('SignupCtrl', function SignupCtrl($scope, $cookies) {
+    var mailParam = getParameterByName('mail');
     $scope.mail = mailParam ? mailParam : '';
     $scope.is_attending = false;
     $scope.name = '';
@@ -23,7 +32,7 @@ yow.controller('SignupCtrl', function SignupCtrl($scope, $cookies, $location) {
 
     $.getJSON('api/attendees/' + $scope.mail, function(attendee) {
         $scope.is_attending = attendee.is_attending;
-        $scope.name = attendee.first_name + ' ' + attendee.last_name;
+        $scope.name = attendee.name;
         $scope.pizza = attendee.pizza;
         $('#pizza-list').ddslick('select', {
             index: Math.abs(pizzas.indexOf(attendee.pizza))
@@ -34,13 +43,11 @@ yow.controller('SignupCtrl', function SignupCtrl($scope, $cookies, $location) {
     $scope.toggleSubscription = function() {
         $scope.is_attending = !$scope.is_attending;
         $cookies.mail = $scope.mail;
-        var names = $scope.name.split(' ');
 
         $.ajax('api/attendees/', {
             data: JSON.stringify({
                 mail: $scope.mail,
-                first_name: names[0],
-                last_name: names[names.length - 1],
+                name: $scope.name,
                 is_attending: $scope.is_attending,
                 pizza: $scope.pizza
             }),

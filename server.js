@@ -20,8 +20,7 @@ if(process.env.VCAP_SERVICES){
 
 var Attendee = mongoose.model('Attendee', {
     mail: {type: String, unique: true},
-    first_name: String,
-    last_name: String,
+    name: String,
     is_attending: Boolean,
     pizza: String
 });
@@ -51,8 +50,7 @@ app.get('/api/attendees', function(req, res) {
 
 app.post('/api/attendees', function (req, res) {
     Attendee.findOneAndUpdate({mail: req.body.mail}, {
-        first_name: req.body.first_name,
-        last_name: req.body.last_name,
+        name: req.body.name,
         is_attending: req.body.is_attending,
         pizza: req.body.pizza
     }, {upsert: true}, function(err, attendee) {
