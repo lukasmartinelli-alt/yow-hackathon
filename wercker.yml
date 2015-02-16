@@ -1,17 +1,24 @@
 box: wercker/nodejs
-# Build definition
 build:
-  # The steps that will be executed on build
   steps:
-    # A step that executes `npm install` command
+    - script:
+        name: install cloud foundry cli
+        code: |
+          URL='https://cli.run.pivotal.io/stable?release=debian64&source=github'
+          FILE=`mktemp`
+          wget "$URL" -qO $FILE && sudo dpkg -i $FILE
+          rm $FILE
     - npm-install
-    # A step that executes `npm test` command
     - npm-test
-
-    # A custom script step, name value is used in the UI
-    # and the code value contains the command that get executed
     - script:
         name: echo nodejs information
         code: |
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
+deploy:
+  steps:
+    - script:
+        name: publish to swisscom cloud
+        code: |
+          cf login -u $CF_USERNAME -p $CF_PASSWORD
+          cf push yow-hackathon
