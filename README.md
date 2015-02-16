@@ -27,8 +27,7 @@ Zeit  | Ablauf
 17:25 | **1. Ziel:** Einfaches Portfolio öffentlich erreichbar
 17:50 | Pizzabestellung aufnehmen
 18:00 | Templates / Designs aussuchen und verwenden
-18:20 | Pizzas entgegennehmen
-18:30 | Ess- und Trinkpause
+18:30 | Ess- und Trinkpause :pizza:
 19:00 | Dynamische Blog Posts mit Github Pages (Jekyll)
 19:15 | **2. Ziel:** Blog aufsetzen
 21:30 | Aufräumen
@@ -43,9 +42,18 @@ Webseiten einiger HSRler oder anderer Entwickler:
 - http://michaelburri.ch/
 - http://marcjuch.li/
 - https://emanuelduss.ch/
-- https://dbrgn.ch
+- https://dbrgn.ch/
 - http://scythe.ch/
 - https://sbaerlocher.ch/
 - http://www.patrickdoerig.ch/
-- http://lukasmartinelli.ch
+- http://lukasmartinelli.ch/
 
+## Templates
+
+- http://bootswatch.com/
+- themeforest.net/search?term=profile
+
+## Github Pages
+
+- http://24ways.org/2013/get-started-with-github-pages/
+- http://jekyllrb.com/docs/windows/
