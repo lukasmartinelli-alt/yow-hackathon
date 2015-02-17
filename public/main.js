@@ -1,7 +1,7 @@
 'use strict';
 
-var pizzas = ['Margherita', 'Stromboli', 'Napoli', 'Prosciutto',
-              'Rustica', 'Salame', 'Calzone'];
+var pizzas = ['Margherita', 'Napoli', 'Prosciutto',
+              'Salame', 'Calzone', 'Hawaii'];
 
 
 function getParameterByName(name) {
