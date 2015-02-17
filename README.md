@@ -33,9 +33,44 @@ Zeit  | Ablauf
 21:30 | Aufräumen
 22:00 | Protectas wirft uns raus
 
-# Vorbereitung
+# Why Github Pages?
 
-- [ ] Vagrant Image bereitstellen
+The first choice for creating a personal website or a blog would
+probably be [WordPress](https://wordpress.org/).
+But [do you really need a PHP webserver](http://davidtucker.net/articles/move-to-static-site-generator/) just to host your static little site?
+As programmer we have no need for a fancy CMS - we know HTML and git.
+
+The solution is a static site generator, where the [most popular one](https://www.staticgen.com/) is Jekyll.
+
+# Get started
+
+## Create a page
+
+1. Register at [GitHub](https://github.com/)
+2. [Setup Git](https://help.github.com/articles/set-up-git/)
+3. Create a repository named `username.github.io`.
+   More information can be found [here](https://pages.github.com/)
+
+## Setup dev environment
+
+Using Github Pages with Jekyll uses Ruby - which is easy to set up as long you
+are not using Windows :smirk:
+You can either setup the environment yourself or use Vagrant (the happy path).
+Setup the env yourself:
+- **Windows:** http://jekyll-windows.juthilo.com/
+- **OSX or Linux:** http://jekyllrb.com/docs/installation/
+
+What is Vagrant? Vagrant let's you create portable development environments.
+
+1. [Install Vagrant](https://www.vagrantup.com/downloads.html)
+2. `git clone https://github.com/kappataumu/vagrant-up-github-pages.git`
+3. In `bootstrap.sh` replace `XXX` with the URL for your GitHub pages repo
+4. `vagrant up`
+5. visit http://localhost:4000
+
+You should know have a subfolder `/www` containing your GitHub pages repo
+that is kept in sync with the Vagrant image. Use the editor of your choice
+to edit the files.
 
 # Materialien
 
@@ -49,7 +84,6 @@ Zeit  | Ablauf
 
 - http://jekyll-windows.juthilo.com/
 - https://pages.github.com/
-- https://www.staticgen.com/
 - http://jekyllbootstrap.com/
 - http://jekyllrb.com/
 - http://nilclass.com/courses/what-is-a-static-website/
@@ -59,20 +93,15 @@ Zeit  | Ablauf
 
 ## Dynamic Problems
 
-### Comments
+**Comments:** Use [Disqus](https://disqus.com/) for comments and embed
+it into your sites.
 
-Use [Disqus](https://disqus.com/) for comments and embedd it into your
-sites.
+**Forms:** Do you really need a contact form? Perhaps a simple mail
+address will be just as good.
+However there are form generators like [Wufoo](http://www.wufoo.com/).
 
-### Forms
-
-Do you really need a contact form? Perhaps a simple mail address will be just as
-good. However there are form generators like [Wufoo](http://www.wufoo.com/).
-
-### Search
-
-People don't want to use your custom search! Just make sure you can be found
-via Google.
+**Search:** People don't want to use your custom search!
+Just make sure you can be found via Google.
 
 # Inspiration
 
