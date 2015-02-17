@@ -39,19 +39,6 @@ Zeit  | Ablauf
 
 # Materialien
 
-## Dev Blogs
-
-Webseiten einiger HSRler oder anderer Entwickler:
-
-- http://michaelburri.ch/
-- http://marcjuch.li/
-- https://emanuelduss.ch/
-- https://dbrgn.ch/
-- http://scythe.ch/
-- https://sbaerlocher.ch/
-- http://www.patrickdoerig.ch/
-- http://lukasmartinelli.ch/
-
 ## Templates
 
 - http://bootswatch.com/
@@ -70,8 +57,65 @@ Webseiten einiger HSRler oder anderer Entwickler:
 - http://24ways.org/2013/get-started-with-github-pages/
 - http://jekyllrb.com/docs/windows/
 
-## Solve dynamic parts
+## Dynamic Problems
 
-- https://disqus.com/
-- http://www.wufoo.com/
-- Google Search
+### Comments
+
+Use [Disqus](https://disqus.com/) for comments and embedd it into your
+sites.
+
+### Forms
+
+Do you really need a contact form? Perhaps a simple mail address will be just as
+good. However there are form generators like [Wufoo](http://www.wufoo.com/).
+
+### Search
+
+People don't want to use your custom search! Just make sure you can be found
+via Google.
+
+# Inspiration
+
+To see what it is all about, get inspiration or simply steal ideas.
+
+## HSRler
+
+Webseiten einiger HSRler oder anderer Schweizer Entwickler:
+
+- http://michaelburri.ch/
+- http://marcjuch.li/
+- https://emanuelduss.ch/
+- https://dbrgn.ch/
+- http://scythe.ch/
+- https://sbaerlocher.ch/
+- http://www.patrickdoerig.ch/
+- http://lukasmartinelli.ch/
+
+## Best Portfolio Sites
+
+- http://www.gcardoso.pt/
+- http://botondraduly.com/
+- http://www.haveyoumetjanet.ca
+- http://www.jacobgrubbe.com/
+- http://michaelvilleneuve.fr
+- http://haraldurthorleifsson.com/
+- http://lisher.net/
+- http://michieldegraaf.com/
+
+## Random Dev Blogs
+
+- http://contra.io/
+- https://alexgaynor.net/
+- http://sarajchipps.com/
+- http://briantford.com/
+- http://ejohn.org/
+- http://maxogden.com/
+- http://davidwalsh.name/
+- https://alexsexton.com/
+- http://jenmyers.net/
+- http://www.hanselman.com/
+- http://www.joshuanaylor.com/resume.html
+- http://balupton.com/
+- http://ednapiranha.com/
+- http://ginatrapani.org/
+- http://blog.codinghorror.com/
