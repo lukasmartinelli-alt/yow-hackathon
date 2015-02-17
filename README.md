@@ -33,6 +33,10 @@ Zeit  | Ablauf
 21:30 | Aufräumen
 22:00 | Protectas wirft uns raus
 
+# Vorbereitung
+
+- [ ] Vagrant Image bereitstellen
+
 # Materialien
 
 ## Dev Blogs
@@ -51,9 +55,23 @@ Webseiten einiger HSRler oder anderer Entwickler:
 ## Templates
 
 - http://bootswatch.com/
-- themeforest.net/search?term=profile
+- http://startbootstrap.com/
+- http://themeforest.net/search?term=profile
 
 ## Github Pages
 
+- http://jekyll-windows.juthilo.com/
+- https://pages.github.com/
+- https://www.staticgen.com/
+- http://jekyllbootstrap.com/
+- http://jekyllrb.com/
+- http://nilclass.com/courses/what-is-a-static-website/
+- https://pages.github.com/
 - http://24ways.org/2013/get-started-with-github-pages/
 - http://jekyllrb.com/docs/windows/
+
+## Solve dynamic parts
+
+- https://disqus.com/
+- http://www.wufoo.com/
+- Google Search
