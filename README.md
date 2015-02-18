@@ -33,14 +33,34 @@ Zeit  | Ablauf
 21:30 | Aufräumen
 22:00 | Protectas wirft uns raus
 
-# Why Github Pages?
+# Intro
+
+## Github Pages?
+
+[ ] Explain Github Pages
+
+## Static Site Generator
+[ ] Explain what a static site generator is
 
 The first choice for creating a personal website or a blog would
 probably be [WordPress](https://wordpress.org/).
 But [do you really need a PHP webserver](http://davidtucker.net/articles/move-to-static-site-generator/) just to host your static little site?
 As programmer we have no need for a fancy CMS - we know HTML and git.
 
-The solution is a static site generator, where the [most popular one](https://www.staticgen.com/) is Jekyll.
+## Jekyll
+
+The [most popular static site generator](https://www.staticgen.com/) is
+Jekyll which also runs on Github
+(it has been written by GitHub CEO Tom Preston-Werner).
+
+## Markdown
+
+Markdown is everywhere nowadays. Markdown is a way to style text
+(like [Latex](http://latex-project.org/intro.html) or
+[reStructuredText](http://sphinx-doc.org/rest.html)).
+Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or \*.
+
+**Quick introduction:** https://guides.github.com/features/mastering-markdown/
 
 # Get started
 
@@ -65,6 +85,9 @@ git push origin master
 After a couple minutes your blog will be
 publicly available at http://username.github.com
 
+You can now write your first post with an online editor like
+[prose.io](http://prose.io/) or just use Github directly.
+
 ## Setup Local Developer Environment
 
 Using Github Pages with Jekyll uses Ruby - which is easy to set up as long you
@@ -74,7 +97,7 @@ Setup the environment yourself:
 - **Windows:** http://jekyll-windows.juthilo.com/
 - **OSX or Linux:** http://jekyllrb.com/docs/installation/
 
-What is Vagrant? Vagrant let's you create portable development environments.
+[What is Vagrant?](http://docs.vagrantup.com/v2/why-vagrant/) Vagrant let's you create portable development environments.
 
 1. [Install Vagrant](https://www.vagrantup.com/downloads.html)
 2. `git clone https://github.com/kappataumu/vagrant-up-github-pages.git`
@@ -83,8 +106,8 @@ What is Vagrant? Vagrant let's you create portable development environments.
 5. visit http://localhost:4000
 
 You should know have a subfolder `/www` containing your GitHub pages repo
-that is kept in sync with the Vagrant image. Use the editor of your choice
-to edit the files.
+that is kept in sync with the Vagrant image. Use the editor of your choice (e.g.
+[Sublime](http://www.sublimetext.com/3), [notepad++](http://notepad-plus-plus.org/), [Atom](https://atom.io/) or [Brackets](http://brackets.io/)) to edit the files.
 
 # Materials
 
