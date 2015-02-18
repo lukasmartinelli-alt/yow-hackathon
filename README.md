@@ -51,12 +51,26 @@ The solution is a static site generator, where the [most popular one](https://ww
 3. Create a repository named `username.github.io`.
    More information can be found [here](https://pages.github.com/)
 
-## Setup dev environment
+## Twitter Bootstrap
+
+You can use the [jekyllbootstrap](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) template to get up and running in 3 minutes.
+
+```
+git clone https://github.com/plusjade/jekyll-bootstrap.git username.github.com
+cd username.github.com
+git remote set-url origin git@github.com:username/username.github.com.git
+git push origin master
+```
+
+After a couple minutes your blog will be
+publicly available at http://username.github.com
+
+## Setup Local Developer Environment
 
 Using Github Pages with Jekyll uses Ruby - which is easy to set up as long you
-are not using Windows :smirk:
-You can either setup the environment yourself or use Vagrant (the happy path).
-Setup the env yourself:
+are not using Windows :smirk:. You can either setup the environment yourself or use Vagrant (the happy path).
+
+Setup the environment yourself:
 - **Windows:** http://jekyll-windows.juthilo.com/
 - **OSX or Linux:** http://jekyllrb.com/docs/installation/
 
@@ -72,7 +86,7 @@ You should know have a subfolder `/www` containing your GitHub pages repo
 that is kept in sync with the Vagrant image. Use the editor of your choice
 to edit the files.
 
-# Materialien
+# Materials
 
 ## Templates
 
