@@ -25,11 +25,11 @@ Pull Requests sind natürlich willkommen.
 Zeit  | Ablauf
 ------|-------------------------------------------------------------
 17:00 | Welcome in Raum 1.212
-17:15 | Einführung in Github Pages
-17:25 | **1. Ziel:** Einfaches Portfolio öffentlich erreichbar
-17:50 | Pizzabestellung aufnehmen
-18:00 | Templates / Designs aussuchen und verwenden
-18:30 | Ess- und Trinkpause :pizza:
+17:15 | Intro
+17:30 | Templates / Designs aussuchen und verwenden
+18:00 | **1. Ziel:** Einfache statische Site öffentlich erreichbar
+18:15 | Pizzabestellung aufnehmen
+19:00 | Ess- und Trinkpause :pizza:
 19:00 | Dynamische Blog Posts mit Github Pages (Jekyll)
 19:15 | **2. Ziel:** Blog aufsetzen
 21:30 | Aufräumen
@@ -185,6 +185,14 @@ git push origin master
 
 After a couple minutes your blog will be
 publicly available at http://username.github.com
+
+## Custom domain
+
+If you don't have a domain but got the Github Student pack
+you can register a `.me` domain for free.
+
+The easiest way to [setup a custom domain with GitHub Pages](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
+is a CNAME record.
 
 # Materials
 
