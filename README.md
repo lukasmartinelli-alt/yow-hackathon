@@ -39,8 +39,11 @@ Zeit  | Ablauf
 
 ## GitHub Pages
 
-You can host a static website directly from your repository with
-[Github Pages](https://pages.github.com/).
+You can host a
+[static website](http://nilclass.com/courses/what-is-a-static-website/)
+directly from your repository with [Github Pages](https://pages.github.com/).
+
+**Introduction:** http://24ways.org/2013/get-started-with-github-pages/
 
 ## Git
 
@@ -54,6 +57,12 @@ probably be [WordPress](https://wordpress.org/).
 But [do you really need a PHP webserver](http://davidtucker.net/articles/move-to-static-site-generator/) just to host your static little site?
 
 A static site generator transforms plain text and templates into a static website.
+Advantages of a static site:
+
+- Simplicity
+- Fast
+- Minimal (no database and no CMS) and secure
+- No hosting fees
 
 ## Jekyll
 
@@ -184,10 +193,9 @@ publicly available at http://username.github.com
 
 ## Links
 
-You can now write your first post with an online editor like
-[prose.io](http://prose.io/) or just use Github directly.
-# Materials
-
+- **Online Blog Writer for Github**
+  You can now write your first post with an online editor like
+  [prose.io](http://prose.io/) or just use Github directly.
 - **Install Jekyll on Windows:**
   http://jekyllrb.com/docs/windows/
 - **Using Jekyll and Poole for building a minimal blog:**
@@ -197,8 +205,7 @@ You can now write your first post with an online editor like
 - **Monster workshop about creating templates with Bootstrap 3:**
   http://www.prideparrot.com/blog/archive/2014/4/blog_template_using_twitter_bootstrap3_part1
 
-
-## Dynamic Problems
+## Dynamic Elements
 
 **Comments:** Use [Disqus](https://disqus.com/) for comments and embed
 it into your sites.
@@ -206,21 +213,12 @@ it into your sites.
 **Forms:** Do you really need a contact form? Perhaps a simple mail
 address will be just as good.
 However there are form generators like [Wufoo](http://www.wufoo.com/).
+You can also try out [Simple Form](https://getsimpleform.com/).
 
 **Search:** People don't want to use your custom search!
 Just make sure you can be found via Google.
 
-# Links
-
-## Github Pages
-
-- http://jekyll-windows.juthilo.com/
-- https://pages.github.com/
-- http://jekyllbootstrap.com/
-- http://jekyllrb.com/
-- http://nilclass.com/courses/what-is-a-static-website/
-- https://pages.github.com/
-- http://24ways.org/2013/get-started-with-github-pages/
+# Inspiration Links
 
 ## Websites of HSR Students
 
