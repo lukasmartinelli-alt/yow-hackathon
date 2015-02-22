@@ -80,33 +80,12 @@ HTML & CSS framework to get started quickly. Just try, google and copy paste.
 3. Create a repository named `username.github.io`.
    More information can be found [here](https://pages.github.com/)
 
-## Approaches
-
-You can build up your blog step by step from a static template
-(greater learning effect) or jump directly into Jekyll and
-use a ready made template.
-
-## Twitter Bootstrap
-
-You can use the [jekyllbootstrap](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) template to get up and running in 3 minutes.
-
-```
-git clone https://github.com/plusjade/jekyll-bootstrap.git username.github.com
-cd username.github.com
-git remote set-url origin git@github.com:username/username.github.com.git
-git push origin master
-```
-
-After a couple minutes your blog will be
-publicly available at http://username.github.com
-
-You can now write your first post with an online editor like
-[prose.io](http://prose.io/) or just use Github directly.
-
 ## Setup Local Developer Environment
 
 Using Github Pages with Jekyll uses Ruby - which is easy to set up as long you
-are not using Windows :smirk:. You can either setup the environment yourself or use Vagrant (the happy path).
+are not using Windows :smirk:.
+You can either setup the environment yourself or use Cloud9 or Vagrant.
+If you just building a static site you can skip this seciton for now.
 
 Setup the environment yourself:
 - **Windows:** http://jekyll-windows.juthilo.com/
@@ -120,8 +99,9 @@ on your machine.
 1. Register at [Cloud9](https://c9.io/) with your Github credentials
 2. Choose your `username.github.io` repo
 3. Click "Clone to edit" and choose the "Ruby on Rails" if you want to use Jekyll
-4. Run in command line: `jekyll serve --port $PORT --host $HOST`
-5. Click "Preview with Web Server"
+4. Install Jekyll: `gem install github-pages`
+5. Run in command line: `jekyll serve --port $PORT --host $HOST`
+6. Click "Preview with Web Server"
 
 ### Use Vagrant
 
@@ -137,16 +117,59 @@ You should know have a subfolder `/www` containing your GitHub pages repo
 that is kept in sync with the Vagrant image. Use the editor of your choice (e.g.
 [Sublime](http://www.sublimetext.com/3), [notepad++](http://notepad-plus-plus.org/), [Atom](https://atom.io/) or [Brackets](http://brackets.io/)) to edit the files.
 
-# Materials
+# Design and Templates
 
-## Templates
+You can build up your blog step by step from a static template
+(greater learning effect) or jump directly into Jekyll and
+use a ready made template.
+
+## Jekyll and Poole
+
+[Poole](http://getpoole.com/) is a very simple Jekyll starter template.
+[Hyde](http://hyde.getpoole.com/) and [Lanyon](http://lanyon.getpoole.com/) are
+offical Poole themes you can use.
+
+```
+git https://github.com/poole/poole.git username.github.com
+cd username.github.com
+git remote set-url origin git@github.com:username/username.github.com.git
+git push origin master
+```
+
+## Jekyll and Twitter Bootstrap
+
+If you really want to learn some HTML and CSS I would try to stay away from
+Twitter Bootstrap for now.
+But you can use the [jekyllbootstrap](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) template to get up and running in 3 minutes.
+
+```
+git clone https://github.com/plusjade/jekyll-bootstrap.git username.github.com
+cd username.github.com
+git remote set-url origin git@github.com:username/username.github.com.git
+git push origin master
+```
+
+After a couple minutes your blog will be
+publicly available at http://username.github.com
+
+## Free Twitter Bootstrap Templates
 
 - http://bootswatch.com/
 - http://startbootstrap.com/
-- http://themeforest.net/search?term=profile
 - http://bootstrapzero.com/
+
+## Free HTML Blog Templates
+
+- http://themeforest.net/search?term=profile
 - http://speckyboy.com/2014/03/07/30-free-responsive-html-templates/
 - http://www.devfloat.com/best-free-modern-blogger-templates/
+
+## Other Jekyll starter templates
+
+- https://github.com/mmistakes/minimal-mistakes
+- https://github.com/jenmyers/jekyll-kickoff
+- https://github.com/chibicode/jekyll-base-template
+- https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/
 
 ## Github Pages
 
@@ -158,11 +181,11 @@ that is kept in sync with the Vagrant image. Use the editor of your choice (e.g.
 - https://pages.github.com/
 - http://24ways.org/2013/get-started-with-github-pages/
 
-Very nice jekyll starter template:
-
-http://getpoole.com/
-
 ## Links
+
+You can now write your first post with an online editor like
+[prose.io](http://prose.io/) or just use Github directly.
+# Materials
 
 - **Install Jekyll on Windows:**
   http://jekyllrb.com/docs/windows/
@@ -198,6 +221,7 @@ Webseiten einiger HSRler oder anderer Schweizer Entwickler:
 - http://marcjuch.li/
 - https://emanuelduss.ch/
 - https://dbrgn.ch/
+- http://theowinter.ch/ and http://ghoul.io/
 - http://scythe.ch/
 - https://sbaerlocher.ch/
 - http://www.patrickdoerig.ch/
@@ -248,7 +272,7 @@ Please notify me if you don't want to appear on the list.
 - Oussama Zgheb
 - Patrick Raths
 - Werner Cheung
-- Marino Melchiori
+- Marino Melchiori [@mrevO](https://github.com/mrevO)
 - Konrad Höpli [@khoepli](https://github.com/khoepli)
 - Stefan Kapferer
 - Jeyanthan Ravindran
@@ -258,7 +282,7 @@ Please notify me if you don't want to appear on the list.
 - Valentina Quni
 - David Windler
 - Andrea Hauser
-- Raffael Ioannone
+- Raffael Ioannone [@RaffaelIoannone](https://github.com/RaffaelIoannone)
 - Roberto Cuervo Alvarez
 - Philippe Naegeli
 - Rolf Furrer
