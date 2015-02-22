@@ -146,6 +146,17 @@ inspiration or simply steal ideas.
 I prepared [a little list of websites](#inspiration-links) to look at.
 Please add your own awesome sites to the list.
 
+## Inspect other pages
+
+Use the [Chrome Devtools](https://developer.chrome.com/devtools) or
+the [Firefox Developer Tools](https://developer.mozilla.org/en/docs/Tools)
+to inspect your favorite sites and mix and match.
+
+## Use static template
+
+Download a static template and put it in your repo or start from scratch.
+I listed [some template resources](#materials) below.
+
 ## Jekyll and Poole
 
 [Poole](http://getpoole.com/) is a very simple Jekyll starter template.
@@ -175,6 +186,8 @@ git push origin master
 After a couple minutes your blog will be
 publicly available at http://username.github.com
 
+# Materials
+
 ## Free Twitter Bootstrap Templates
 
 - http://bootswatch.com/
@@ -186,6 +199,20 @@ publicly available at http://username.github.com
 - http://themeforest.net/search?term=profile
 - http://speckyboy.com/2014/03/07/30-free-responsive-html-templates/
 - http://www.devfloat.com/best-free-modern-blogger-templates/
+- http://makeitcg.com/minimalist-blogger-templates/2789/
+- http://webdesignmoo.com/2014/20-free-blogger-templates-2014/
+
+## Fonts
+
+Minimalism and typography make great technical websites.
+The best way to use free web fonts is
+[Google Fonts](https://www.google.com/fonts/).
+
+Ready made combinations (because we know nothing about typography):
+
+- http://briangardner.com/google-font-combinations/
+- http://hellohappy.org/beautiful-web-type/
+- http://www.awwwards.com/20-best-web-fonts-from-google-web-fonts-and-font-face.html
 
 ## Other Jekyll starter templates
 
@@ -193,6 +220,12 @@ publicly available at http://username.github.com
 - https://github.com/jenmyers/jekyll-kickoff
 - https://github.com/chibicode/jekyll-base-template
 - https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/
+
+## Blogging Essentials
+
+- Use [Google Analytics](http://www.google.com/analytics/)
+- Make sure you are found (check for search terms from the start)
+- Spread your content via Twitter, Reddit and Hackernews
 
 ## Links
 
