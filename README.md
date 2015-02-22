@@ -35,19 +35,22 @@ Zeit  | Ablauf
 
 # Intro
 
-## Github Pages?
+## [GitHub Pages](https://pages.github.com/)
 
-[ ] Explain Github Pages
+Host static website directly from your repository.
+
+## Git
+
+The [most popular](http://www.sitepoint.com/version-control-software-2014-what-options/) version control system today.
+Quite hard to master but just read [the simple guide](https://rogerdudler.github.io/git-guide/).
 
 ## Static Site Generator
+
+A static site generator transforms plain text and templates into a static website.
 
 The first choice for creating a personal website or a blog would
 probably be [WordPress](https://wordpress.org/).
 But [do you really need a PHP webserver](http://davidtucker.net/articles/move-to-static-site-generator/) just to host your static little site?
-
-A static site generator transforms plain text and templates into a static website.
-
-![Static site generator](public/slides/img/static_site_generator_black.png)]
 
 ## Jekyll
 
@@ -63,6 +66,10 @@ Markdown is everywhere nowadays. Markdown is a way to style text
 Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or \*.
 
 **Quick introduction:** https://guides.github.com/features/mastering-markdown/
+
+## [Twitter Bootstrap](http://getbootstrap.com/)
+
+HTML & CSS framework to get started quickly. Just try, google and copy paste.
 
 # Get started
 
