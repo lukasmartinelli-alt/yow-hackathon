@@ -40,17 +40,19 @@ Zeit  | Ablauf
 [ ] Explain Github Pages
 
 ## Static Site Generator
-[ ] Explain what a static site generator is
 
 The first choice for creating a personal website or a blog would
 probably be [WordPress](https://wordpress.org/).
 But [do you really need a PHP webserver](http://davidtucker.net/articles/move-to-static-site-generator/) just to host your static little site?
-As programmer we have no need for a fancy CMS - we know HTML and git.
+
+A static site generator transforms plain text and templates into a static website.
+
+![Static site generator](public/slides/img/static_site_generator_black.png)]
 
 ## Jekyll
 
 The [most popular static site generator](https://www.staticgen.com/) is
-Jekyll which also runs on Github
+[Jekyll](http://jekyllrb.com/) which also runs on Github
 (it has been written by GitHub CEO Tom Preston-Werner).
 
 ## Markdown
