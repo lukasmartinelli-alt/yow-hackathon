@@ -136,12 +136,15 @@ You can build up your blog step by step from a static template
 (greater learning effect) or jump directly into Jekyll and
 use a ready made template.
 
-## Get some inspiration
+## Get some Inspiration
 
 Think about what your website is about and how it should look like.
 If you are like me and lacking a bit of imagination it helps alot
 to browse websites and templates of other people and get some
 inspiration or simply steal ideas.
+
+I prepared [a little list of websites](#inspiration-links) to look at.
+Please add your own awesome sites to the list.
 
 ## Jekyll and Poole
 
@@ -193,7 +196,7 @@ publicly available at http://username.github.com
 
 ## Links
 
-- **Online Blog Writer for Github**
+- **Online Blog Writer for Github:**
   You can now write your first post with an online editor like
   [prose.io](http://prose.io/) or just use Github directly.
 - **Install Jekyll on Windows:**
@@ -230,15 +233,16 @@ Just make sure you can be found via Google.
 - http://scythe.ch/
 - https://sbaerlocher.ch/
 - http://www.patrickdoerig.ch/
+- http://kapferer.ch/
 - http://lukasmartinelli.ch/
 
 ## Good Looking Portfolio Sites
 
 - http://www.gcardoso.pt/
 - http://botondraduly.com/
-- http://www.haveyoumetjanet.ca
+- http://www.haveyoumetjanet.ca/
 - http://www.jacobgrubbe.com/
-- http://michaelvilleneuve.fr
+- http://michaelvilleneuve.fr/
 - http://haraldurthorleifsson.com/
 - http://lisher.net/
 - http://michieldegraaf.com/
@@ -280,10 +284,10 @@ Please notify me if you don't want to appear on the list.
 - Werner Cheung
 - Marino Melchiori [@mrevO](https://github.com/mrevO)
 - Konrad Höpli [@khoepli](https://github.com/khoepli)
-- Stefan Kapferer
+- Stefan Kapferer [@stefan-ka](https://github.com/stefan-ka)
 - Jeyanthan Ravindran
 - Simon Schaefer
-- Janic Mikes
+- Janic Mikes [@janicmikes](https://github.com/janicmikes)
 - Lukas Steiger
 - Valentina Quni
 - David Windler
