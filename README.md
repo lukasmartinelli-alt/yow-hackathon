@@ -236,20 +236,20 @@ Webseiten einiger HSRler oder anderer Schweizer Entwickler:
 
 Please notify me if you don't want to appear on the list.
 
-- Lukas Martinelli @lukasmartinelli
-- Manuel Roth @manuelroth
-- Samuel Kurath @Murthy10
-- Fabian Keller @fabiankeller
-- Özhan Kaya @Fizzzo42
-- Kevin Schmidiger @kschmidi
+- Lukas Martinelli [@lukasmartinelli](https://github.com/lukasmartinelli)
+- Manuel Roth [@manuelroth](https://github.com/manuelroth)
+- Samuel Kurath [@Murthy10](https://github.com/Murthy10)
+- Fabian Keller [@fabiankeller](https://github.com/fabiankeller)
+- Özhan Kaya [@Fizzzo42](https://github.com/Fizzzo42)
+- Kevin Schmidiger [@kschmidi](https://github.com/kschmidi)
 - Silvan Habegger
-- Florian Merz @flomerz
+- Florian Merz [@flomerz](https://github.com/flomerz)
 - Josip Valencic
 - Oussama Zgheb
 - Patrick Raths
 - Werner Cheung
 - Marino Melchiori
-- Konrad Höpli @khoepli
+- Konrad Höpli [@khoepli](https://github.com/khoepli)
 - Stefan Kapferer
 - Jeyanthan Ravindran
 - Simon Schaefer
