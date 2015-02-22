@@ -46,11 +46,11 @@ Quite hard to master but just read [the simple guide](https://rogerdudler.github
 
 ## Static Site Generator
 
-A static site generator transforms plain text and templates into a static website.
-
 The first choice for creating a personal website or a blog would
 probably be [WordPress](https://wordpress.org/).
 But [do you really need a PHP webserver](http://davidtucker.net/articles/move-to-static-site-generator/) just to host your static little site?
+
+A static site generator transforms plain text and templates into a static website.
 
 ## Jekyll
 
@@ -80,6 +80,12 @@ HTML & CSS framework to get started quickly. Just try, google and copy paste.
 3. Create a repository named `username.github.io`.
    More information can be found [here](https://pages.github.com/)
 
+## Approaches
+
+You can build up your blog step by step from a static template
+(greater learning effect) or jump directly into Jekyll and
+use a ready made template.
+
 ## Twitter Bootstrap
 
 You can use the [jekyllbootstrap](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) template to get up and running in 3 minutes.
@@ -106,6 +112,19 @@ Setup the environment yourself:
 - **Windows:** http://jekyll-windows.juthilo.com/
 - **OSX or Linux:** http://jekyllrb.com/docs/installation/
 
+### Use Cloud9
+
+You can use [Cloud9](https://c9.io/) to develop without installing anything
+on your machine.
+
+1. Register at [Cloud9](https://c9.io/) with your Github credentials
+2. Choose your `username.github.io` repo
+3. Click "Clone to edit" and choose the "Ruby on Rails" if you want to use Jekyll
+4. Run in command line: `jekyll serve --port $PORT --host $HOST`
+5. Click "Preview with Web Server"
+
+### Use Vagrant
+
 [What is Vagrant?](http://docs.vagrantup.com/v2/why-vagrant/) Vagrant let's you create portable development environments.
 
 1. [Install Vagrant](https://www.vagrantup.com/downloads.html)
@@ -125,6 +144,9 @@ that is kept in sync with the Vagrant image. Use the editor of your choice (e.g.
 - http://bootswatch.com/
 - http://startbootstrap.com/
 - http://themeforest.net/search?term=profile
+- http://bootstrapzero.com/
+- http://speckyboy.com/2014/03/07/30-free-responsive-html-templates/
+- http://www.devfloat.com/best-free-modern-blogger-templates/
 
 ## Github Pages
 
@@ -135,7 +157,22 @@ that is kept in sync with the Vagrant image. Use the editor of your choice (e.g.
 - http://nilclass.com/courses/what-is-a-static-website/
 - https://pages.github.com/
 - http://24ways.org/2013/get-started-with-github-pages/
-- http://jekyllrb.com/docs/windows/
+
+Very nice jekyll starter template:
+
+http://getpoole.com/
+
+## Links
+
+- **Install Jekyll on Windows:**
+  http://jekyllrb.com/docs/windows/
+- **Using Jekyll and Poole for building a minimal blog:**
+  http://joshualande.com/jekyll-github-pages-poole/
+- **Creating a Archive page with Jekyll:**
+  http://reyhan.org/2013/03/jekyll-archive-without-plugins.html
+- **Monster workshop about creating templates with Bootstrap 3:**
+  http://www.prideparrot.com/blog/archive/2014/4/blog_template_using_twitter_bootstrap3_part1
+
 
 ## Dynamic Problems
 
@@ -194,3 +231,42 @@ Webseiten einiger HSRler oder anderer Schweizer Entwickler:
 - http://ednapiranha.com/
 - http://ginatrapani.org/
 - http://blog.codinghorror.com/
+
+## Attendees
+
+Please notify me if you don't want to appear on the list.
+
+- Lukas Martinelli @lukasmartinelli
+- Manuel Roth @manuelroth
+- Samuel Kurath @Murthy10
+- Fabian Keller @fabiankeller
+- Özhan Kaya @Fizzzo42
+- Kevin Schmidiger @kschmidi
+- Silvan Habegger
+- Florian Merz @flomerz
+- Josip Valencic
+- Oussama Zgheb
+- Patrick Raths
+- Werner Cheung
+- Marino Melchiori
+- Konrad Höpli @khoepli
+- Stefan Kapferer
+- Jeyanthan Ravindran
+- Simon Schaefer
+- Janic Mikes
+- Lukas Steiger
+- Valentina Quni
+- David Windler
+- Andrea Hauser
+- Raffael Ioannone
+- Roberto Cuervo Alvarez
+- Philippe Naegeli
+- Rolf Furrer
+- Philip Schmid
+- Matthias Gabriel
+- Philipp Walder
+- Stefano Kals
+- Tobias Schmitz
+- Arianna Blanco
+- Oliviero Chiodo
+- Joël Egger
