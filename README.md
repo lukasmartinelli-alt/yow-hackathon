@@ -1,5 +1,7 @@
 # yow-hackathon
 
+[![Join the chat at https://gitter.im/lukasmartinelli/yow-hackathon](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lukasmartinelli/yow-hackathon?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![yow Hackathon](screenshot.png)](http://yow-hackathon.lukasmartinelli.ch)
 
 Jeder Entwickler [sollte einen Blog](http://www.hanselman.com/blog/YourBlogIsTheEngineOfCommunity.aspx) oder eine Portfolio Website haben um sich
