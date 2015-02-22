@@ -35,9 +35,10 @@ Zeit  | Ablauf
 
 # Intro
 
-## [GitHub Pages](https://pages.github.com/)
+## GitHub Pages
 
-Host static website directly from your repository.
+You can host a static website directly from your repository with
+[Github Pages](https://pages.github.com/).
 
 ## Git
 
@@ -67,9 +68,10 @@ Mostly, Markdown is just regular text with a few non-alphabetic characters throw
 
 **Quick introduction:** https://guides.github.com/features/mastering-markdown/
 
-## [Twitter Bootstrap](http://getbootstrap.com/)
+## Twitter Bootstrap
 
-HTML & CSS framework to get started quickly. Just try, google and copy paste.
+[Twitter Bootstrap](http://getbootstrap.com/) HTML & CSS framework to
+get started quickly. Just try, google and copy paste.
 
 # Get started
 
@@ -123,6 +125,13 @@ You can build up your blog step by step from a static template
 (greater learning effect) or jump directly into Jekyll and
 use a ready made template.
 
+## Get some inspiration
+
+Think about what your website is about and how it should look like.
+If you are like me and lacking a bit of imagination it helps alot
+to browse websites and templates of other people and get some
+inspiration or simply steal ideas.
+
 ## Jekyll and Poole
 
 [Poole](http://getpoole.com/) is a very simple Jekyll starter template.
@@ -171,16 +180,6 @@ publicly available at http://username.github.com
 - https://github.com/chibicode/jekyll-base-template
 - https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/
 
-## Github Pages
-
-- http://jekyll-windows.juthilo.com/
-- https://pages.github.com/
-- http://jekyllbootstrap.com/
-- http://jekyllrb.com/
-- http://nilclass.com/courses/what-is-a-static-website/
-- https://pages.github.com/
-- http://24ways.org/2013/get-started-with-github-pages/
-
 ## Links
 
 You can now write your first post with an online editor like
@@ -209,13 +208,19 @@ However there are form generators like [Wufoo](http://www.wufoo.com/).
 **Search:** People don't want to use your custom search!
 Just make sure you can be found via Google.
 
-# Inspiration
+# Links
 
-To see what it is all about, get inspiration or simply steal ideas.
+## Github Pages
 
-## HSRler
+- http://jekyll-windows.juthilo.com/
+- https://pages.github.com/
+- http://jekyllbootstrap.com/
+- http://jekyllrb.com/
+- http://nilclass.com/courses/what-is-a-static-website/
+- https://pages.github.com/
+- http://24ways.org/2013/get-started-with-github-pages/
 
-Webseiten einiger HSRler oder anderer Schweizer Entwickler:
+## Websites of HSR Students
 
 - http://michaelburri.ch/
 - http://marcjuch.li/
@@ -227,7 +232,7 @@ Webseiten einiger HSRler oder anderer Schweizer Entwickler:
 - http://www.patrickdoerig.ch/
 - http://lukasmartinelli.ch/
 
-## Best Portfolio Sites
+## Good Looking Portfolio Sites
 
 - http://www.gcardoso.pt/
 - http://botondraduly.com/
@@ -238,7 +243,7 @@ Webseiten einiger HSRler oder anderer Schweizer Entwickler:
 - http://lisher.net/
 - http://michieldegraaf.com/
 
-## Random Dev Blogs
+## Other Dev Blogs
 
 - http://contra.io/
 - https://alexgaynor.net/
@@ -256,8 +261,9 @@ Webseiten einiger HSRler oder anderer Schweizer Entwickler:
 - http://ginatrapani.org/
 - http://blog.codinghorror.com/
 
-## Attendees
+# Attendees
 
+I will reference the great pages you will build in the list below.
 Please notify me if you don't want to appear on the list.
 
 - Lukas Martinelli [@lukasmartinelli](https://github.com/lukasmartinelli)
