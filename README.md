@@ -346,7 +346,7 @@ Please notify me if you don't want to appear on the list.
 - Jeyanthan Ravindran
 - Simon Schaefer
 - Janic Mikes [@janicmikes](https://github.com/janicmikes)
-- Lukas Steiger
+- Lukas Steiger [@lukasst](https://github.com/lukasst)
 - Valentina Quni [@vquni](https://github.com/vquni)
 - David Windler
 - Andrea Hauser
@@ -357,7 +357,7 @@ Please notify me if you don't want to appear on the list.
 - Philip Schmid
 - Matthias Gabriel
 - Philipp Walder
-- Stefano Kals
+- Stefano Kals [@dingouerinitx](https://github.com/dingouerinitx)
 - Tobias Schmitz
 - Arianna Blanco
 - Oliviero Chiodo
