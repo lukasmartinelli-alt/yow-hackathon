@@ -163,9 +163,25 @@ I listed [some template resources](#materials) below.
 [Hyde](http://hyde.getpoole.com/) and [Lanyon](http://lanyon.getpoole.com/) are
 offical Poole themes you can use.
 
+Clone the templates into your repo:
+
+**Pole:** `git clone https://github.com/poole/poole.git username.github.io`
+**Hyde:** `git https://github.com/poole/hyde.git username.github.io`
+**Lanyon:** `git clone https://github.com/poole/lanyon.git username.github.io`
+
+If you are using Cloud9 I recommend deleting the workspace folder and
+cloning the template into a `workspace` folder.
+
 ```
-git clone https://github.com/poole/poole.git username.github.com
-cd username.github.com
+cd ..
+rm -r workspace
+git clone https://github.com/poole/poole.git workspace`
+```
+
+Now set the remote url back to your own custom repo and push the changes:
+
+```
+cd username.github.io
 git remote set-url origin git@github.com:username/username.github.com.git
 git push origin master
 ```
@@ -177,7 +193,7 @@ Twitter Bootstrap for now.
 But you can use the [jekyllbootstrap](http://jekyllbootstrap.com/usage/jekyll-quick-start.html) template to get up and running in 3 minutes.
 
 ```
-git clone https://github.com/plusjade/jekyll-bootstrap.git username.github.com
+git clone https://github.com/plusjade/jekyll-bootstrap.git username.github.io
 cd username.github.com
 git remote set-url origin git@github.com:username/username.github.com.git
 git push origin master
