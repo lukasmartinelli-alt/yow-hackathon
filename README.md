@@ -345,3 +345,6 @@ Please notify me if you don't want to appear on the list.
 - Arianna Blanco
 - Oliviero Chiodo
 - Joël Egger
+- Arian Gagica
+- Simon Heller
+- André Bachmann
