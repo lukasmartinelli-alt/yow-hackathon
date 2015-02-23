@@ -7,7 +7,7 @@
 Jeder Entwickler [sollte einen Blog](http://www.hanselman.com/blog/YourBlogIsTheEngineOfCommunity.aspx) oder eine Portfolio Website haben um sich
 zu präsentieren und von der breiten Masse abzuheben.
 
-Wir werden uns am **Montag 23. Februar ab 17:00 im Raum 1.212** treffen um
+Wir werden uns am **Montag 23. Februar ab 17:00 im Raum 1.277** treffen um
 zusammen an unserem persönlichen Webauftritt zu arbeiten.
 Melde dich auf http://yow-hackathon.lukasmartinelli.ch an.
 
@@ -24,7 +24,7 @@ Pull Requests sind natürlich willkommen.
 
 Zeit  | Ablauf
 ------|-------------------------------------------------------------
-17:00 | Welcome in Raum 1.212
+17:00 | Welcome in Raum 1.277
 17:15 | Intro
 17:30 | Templates / Designs aussuchen und verwenden
 18:00 | **1. Ziel:** Einfache statische Site öffentlich erreichbar
