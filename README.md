@@ -222,6 +222,7 @@ is a CNAME record.
 
 ## Free HTML Blog Templates
 
+- http://html5up.net/
 - http://themeforest.net/search?term=profile
 - http://speckyboy.com/2014/03/07/30-free-responsive-html-templates/
 - http://www.devfloat.com/best-free-modern-blogger-templates/
