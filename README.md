@@ -90,8 +90,8 @@ get started quickly. Just try, google and copy paste.
 
 1. Register at [GitHub](https://github.com/)
 2. [Setup Git](https://help.github.com/articles/set-up-git/)
-3. Create a repository named `username.github.io`.
-   More information can be found [here](https://pages.github.com/)
+3. Follow the steps in this [tutorial](https://pages.github.com/)
+   and create a repository named `username.github.io`.
 
 ## Setup Local Developer Environment
 
@@ -164,7 +164,7 @@ I listed [some template resources](#materials) below.
 offical Poole themes you can use.
 
 ```
-git https://github.com/poole/poole.git username.github.com
+git clone https://github.com/poole/poole.git username.github.com
 cd username.github.com
 git remote set-url origin git@github.com:username/username.github.com.git
 git push origin master
