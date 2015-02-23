@@ -28,10 +28,10 @@ Zeit  | Ablauf
 17:15 | Intro
 17:30 | Templates / Designs aussuchen und verwenden
 18:00 | **1. Ziel:** Einfache statische Site öffentlich erreichbar
-18:15 | Pizzabestellung aufnehmen
+18:00 | Pizzabestellung aufnehmen
 19:00 | Ess- und Trinkpause :pizza:
-19:00 | Dynamische Blog Posts mit Github Pages (Jekyll)
-19:15 | **2. Ziel:** Blog aufsetzen
+19:30 | Dynamische Blog Posts mit Github Pages (Jekyll)
+20:00 | **2. Ziel:** Blog aufsetzen
 21:30 | Aufräumen
 22:00 | Protectas wirft uns raus
 
