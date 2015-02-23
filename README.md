@@ -336,23 +336,23 @@ Please notify me if you don't want to appear on the list.
 - Kevin Schmidiger [@kschmidi](https://github.com/kschmidi)
 - Silvan Habegger
 - Florian Merz [@flomerz](https://github.com/flomerz)
-- Josip Valencic
+- Josip Valencic [@valenx](https://github.com/flomerz)
 - Oussama Zgheb
-- Patrick Raths
+- Patrick Raths [@praths](https://github.com/p-raths)
 - Werner Cheung
-- Marino Melchiori [@mrevO](https://github.com/mrevO)
+- Marino Melchiori [@mmelchio](https://github.com/mmelchio)
 - Konrad Höpli [@khoepli](https://github.com/khoepli)
 - Stefan Kapferer [@stefan-ka](https://github.com/stefan-ka)
 - Jeyanthan Ravindran
 - Simon Schaefer
 - Janic Mikes [@janicmikes](https://github.com/janicmikes)
 - Lukas Steiger
-- Valentina Quni
+- Valentina Quni [@vquni](https://github.com/vquni)
 - David Windler
 - Andrea Hauser
 - Raffael Ioannone [@RaffaelIoannone](https://github.com/RaffaelIoannone)
 - Roberto Cuervo Alvarez
-- Philippe Naegeli
+- Philippe Naegeli [@pichichi91](https://github.com/RaffaelIoannone)
 - Rolf Furrer
 - Philip Schmid
 - Matthias Gabriel
