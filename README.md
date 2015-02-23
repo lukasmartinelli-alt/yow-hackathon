@@ -66,12 +66,6 @@ Advantages of a static site:
 - Minimal (no database and no CMS) and secure
 - No hosting fees
 
-### Jekyll
-
-The [most popular static site generator](https://www.staticgen.com/) is
-[Jekyll](http://jekyllrb.com/) which also runs on Github
-(it has been written by GitHub CEO Tom Preston-Werner).
-
 ### Markdown
 
 Markdown is everywhere nowadays. Markdown is a way to style text
@@ -156,6 +150,12 @@ to inspect your favorite sites and mix and match.
 
 Download a static template and put it in your repo or start from scratch.
 I listed [some template resources](#materials) below.
+
+# Jekyll
+
+The [most popular static site generator](https://www.staticgen.com/) is
+[Jekyll](http://jekyllrb.com/) which also runs on Github
+(it has been written by GitHub CEO Tom Preston-Werner).
 
 ## Jekyll and Poole
 
