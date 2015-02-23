@@ -75,11 +75,6 @@ Mostly, Markdown is just regular text with a few non-alphabetic characters throw
 You can master markdown in 3 minutes with
 [this quick introduction](https://guides.github.com/features/mastering-markdown/).
 
-### Twitter Bootstrap
-
-[Twitter Bootstrap](http://getbootstrap.com/) is a HTML & CSS framework to
-get started quickly. Just try, google and copy paste.
-
 ## Create a page
 
 1. Register at [GitHub](https://github.com/)
@@ -188,6 +183,9 @@ git push origin master
 ```
 
 ## Jekyll and Twitter Bootstrap
+
+[Twitter Bootstrap](http://getbootstrap.com/) is a HTML & CSS framework to
+get started quickly. Just try, google and copy paste.
 
 If you really want to learn some HTML and CSS I would try to stay away from
 Twitter Bootstrap for now.
