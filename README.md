@@ -102,7 +102,7 @@ on your machine.
 2. Choose your `username.github.io` repo
 3. Click "Clone to edit" and choose the "Ruby on Rails" if you want to use Jekyll
 4. Install Jekyll: `gem install github-pages`
-5. Run in command line: `jekyll serve --port $PORT --host $HOST`
+5. Run in command line: `jekyll serve --port $PORT --host $IP`
 6. Click "Preview with Web Server"
 
 ### Use Vagrant
