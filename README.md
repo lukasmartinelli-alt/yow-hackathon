@@ -163,14 +163,15 @@ I listed [some template resources](#materials) below.
 [Hyde](http://hyde.getpoole.com/) and [Lanyon](http://lanyon.getpoole.com/) are
 offical Poole themes you can use.
 
-Clone the templates into your repo:
+Choose one and clone the template into your repo:
+- **Pole:** `git clone https://github.com/poole/poole.git username.github.io`
+- **Hyde:** `git https://github.com/poole/hyde.git username.github.io`
+- **Lanyon:** `git clone https://github.com/poole/lanyon.git username.github.io`
 
-**Pole:** `git clone https://github.com/poole/poole.git username.github.io`
-**Hyde:** `git https://github.com/poole/hyde.git username.github.io`
-**Lanyon:** `git clone https://github.com/poole/lanyon.git username.github.io`
+### Cloud9 Tricks
 
 If you are using Cloud9 I recommend deleting the workspace folder and
-cloning the template into a `workspace` folder.
+cloning the template into the `workspace` folder.
 
 ```
 cd ..
@@ -204,7 +205,8 @@ publicly available at http://username.github.com
 
 ## Custom domain
 
-If you don't have a domain but got the Github Student pack
+If you don't have a domain but got the
+[Github Student pack](https://education.github.com/pack)
 you can register a `.me` domain for free.
 
 The easiest way to [setup a custom domain with GitHub Pages](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)

@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>yow Hackathon</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Create your own Website Hackathon">
+		<meta name="author" content="Lukas Martinelli">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -87,9 +87,72 @@
                     <pre><code>git commit -a -m "Commit message"</code></pre>
                     <pre><code>git push origin master</code></pre>
 				</section>
-                <section>
+                <section data-background="#3e1e1f">
+                    <img style="border: none; box-shadow: none;" data-src="img/jekyll_cat.jpg" alt="Jekyll"/>
+				</section>
+                <section data-background="#3e1e1f">
                     <h2>Static Site Generator</h2>
                     <img data-src="img/static_site_generator.png" alt="Static Site Generator">
+                </section>
+                <section data-background="#3e1e1f">
+                    <h2>Directory Structure</h2>
+                    <pre><code class="bash" data-trim>
+|-- _config.yml
+|-- _includes
+|   |-- footer.html
+|   `-- header.html
+|-- _layouts
+|   |-- default.html
+|   `-- post.html
+|-- _posts
+|   |-- 2007-10-29-why-every-programmer-should-play-nethack.md
+|   `-- 2009-04-26-barcamp-boston-4-roundup.md
+|-- _site
+`--index.html
+                    </code></pre>
+                </section>
+                <section data-background="#3e1e1f">
+                    <h2>Commands</h2>
+                    <p>Install Jekyll Gem</p>
+                    <pre><code class="bash" data-trim>
+gem install github-pages
+                    </code></pre>
+                    <p>Serve on localhost:4000</p>
+                    <pre><code class="bash" data-trim>
+jekyll --serve
+                    </code></pre>
+                    <p>Build static site</p>
+                    <pre><code class="bash" data-trim>
+jekyll
+                    </code></pre>
+                </section>
+                <section data-background="#3e1e1f">
+                    <h2>Liquid Template</h2>
+                    <pre><code data-trim>
+<ul>
+{% for post in site.posts %}
+    <li>
+        <a href="{{ BASE_PATH }}/{{ post.url }}">
+            {{ post.title }} <br/>
+            {{ post.date | date_to_string  }}
+        </a>
+    </li>
+{% endfor %}
+</ul>
+                    </code></pre>
+                </section>
+                <section data-background="#3e1e1f">
+                    <h2>Post</h2>
+                    <pre><code class="markdown" data-trim>
+---
+layout: post
+title: "Welcome to Jekyll"
+tags:
+  - security
+  - php
+published: true
+---
+                    </code></pre>
                 </section>
                 <section data-background="img/octocat_jetpack.jpg">
                     <h1>Let's go</h1>
