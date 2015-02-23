@@ -35,25 +35,27 @@ Zeit  | Ablauf
 21:30 | Aufräumen
 22:00 | Protectas wirft uns raus
 
-# Intro
+# Get started
 
-## GitHub Pages
+## Terms
+
+### GitHub Pages
 
 You can host a
 [static website](http://nilclass.com/courses/what-is-a-static-website/)
 directly from your repository with [Github Pages](https://pages.github.com/).
+Read [a longer introduction](http://24ways.org/2013/get-started-with-github-pages/) if you want to skip ahead.
 
-**Introduction:** http://24ways.org/2013/get-started-with-github-pages/
+### Git
 
-## Git
+Git is the [most popular](http://www.sitepoint.com/version-control-software-2014-what-options/) version control system today.
+It is hard to master but you can read
+[the simple guide](https://rogerdudler.github.io/git-guide/) to get started.
 
-The [most popular](http://www.sitepoint.com/version-control-software-2014-what-options/) version control system today.
-Quite hard to master but just read [the simple guide](https://rogerdudler.github.io/git-guide/).
+### Static Site Generator
 
-## Static Site Generator
-
-The first choice for creating a personal website or a blog would
-probably be [WordPress](https://wordpress.org/).
+The first choice for creating a personal website or a blog for non-programmers
+is [WordPress](https://wordpress.org/).
 But [do you really need a PHP webserver](http://davidtucker.net/articles/move-to-static-site-generator/) just to host your static little site?
 
 A static site generator transforms plain text and templates into a static website.
@@ -64,27 +66,25 @@ Advantages of a static site:
 - Minimal (no database and no CMS) and secure
 - No hosting fees
 
-## Jekyll
+### Jekyll
 
 The [most popular static site generator](https://www.staticgen.com/) is
 [Jekyll](http://jekyllrb.com/) which also runs on Github
 (it has been written by GitHub CEO Tom Preston-Werner).
 
-## Markdown
+### Markdown
 
 Markdown is everywhere nowadays. Markdown is a way to style text
 (like [Latex](http://latex-project.org/intro.html) or
 [reStructuredText](http://sphinx-doc.org/rest.html)).
 Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or \*.
+You can master markdown in 3 minutes with
+[this quick introduction](https://guides.github.com/features/mastering-markdown/).
 
-**Quick introduction:** https://guides.github.com/features/mastering-markdown/
+### Twitter Bootstrap
 
-## Twitter Bootstrap
-
-[Twitter Bootstrap](http://getbootstrap.com/) HTML & CSS framework to
+[Twitter Bootstrap](http://getbootstrap.com/) is a HTML & CSS framework to
 get started quickly. Just try, google and copy paste.
-
-# Get started
 
 ## Create a page
 
