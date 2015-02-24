@@ -344,7 +344,7 @@ Please notify me if you don't want to appear on the list.
 - Konrad Höpli [@khoepli](https://github.com/khoepli)
 - Stefan Kapferer [@stefan-ka](https://github.com/stefan-ka)
 - Jeyanthan Ravindran
-- Simon Schaefer
+- Simon Schaefer [@saspeed](https://github.com/saspeed)
 - Janic Mikes [@janicmikes](https://github.com/janicmikes)
 - Lukas Steiger [@lukasst](https://github.com/lukasst)
 - Valentina Quni [@vquni](https://github.com/vquni)
@@ -359,8 +359,8 @@ Please notify me if you don't want to appear on the list.
 - Philipp Walder
 - Stefano Kals [@dingouerinitx](https://github.com/dingouerinitx)
 - Tobias Schmitz
-- Arianna Blanco
-- Oliviero Chiodo
+- Arianna Blanco [@aha93](http://github.com/aha93)
+- Oliviero Chiodo [@mexmirror](https://github.com/mexmirror)
 - Joël Egger
 - Arian Gagica
 - Simon Heller
